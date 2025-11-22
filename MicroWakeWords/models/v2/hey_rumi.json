@@ -1,18 +1,12 @@
 {
   "type": "micro",
   "wake_word": "hey_rumi",
-  "author": "Andre",
-  "website": "https://github.com/alfwro13/ai-ball-esphome-assistant/edit/main/MicroWakeWords/models/v2/hey_rumi.json",
+  "author": "AMW",
+  "website": "https://github.com/alfwro13",
   "model": "hey_rumi.tflite",
-  "trained_languages": [
-    "en"
-  ],
-  "version": 2,
+  "version": 1,
   "micro": {
-    "probability_cutoff": 0.97,
-    "sliding_window_size": 5,
-    "feature_step_size": 10,
-    "tensor_arena_size": 22860,
-    "minimum_esphome_version": "2025.10.0"
+    "probability_cutoff": 0.5,
+    "sliding_window_average_size": 10
   }
 }
